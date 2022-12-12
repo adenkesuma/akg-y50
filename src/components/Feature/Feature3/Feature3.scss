@@ -1,0 +1,165 @@
+.feature-3 {
+    overflow: hidden;
+    padding: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+
+    &__text {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+
+        span {
+            font-size: 4rem;
+            font-weight: 700;
+            color: #c6c6c6;
+        }
+
+        h3 {
+            font-size: 1.6rem;
+        }
+
+        p {
+            font-size: 1.2rem;
+        }
+
+        a {
+            width: 10rem;
+            text-align: center;
+            text-decoration: none;
+            font-size: 1rem;
+            padding: 1rem;
+            background: #999999;
+            color: #fff;
+            transition: all 0.3s;
+        }
+
+        a:hover {
+            box-shadow: 10px 10px #302d2d;
+        }
+    }
+
+    &__image {
+        width: 100%;
+
+        img {
+            width: 40rem;
+        }
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .feature-3 {
+        margin-top: 4rem;
+        padding: 2rem;
+        gap: 1rem;
+
+        &__text {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+
+            h3 {
+                font-size: 1.6rem;
+            }
+
+            p {
+                font-size: 1.1rem;
+            }
+
+            a {
+                width: 10rem;
+                font-size: 1rem;
+                padding: 1rem;
+            }
+        }
+
+        &__image {
+            width: 100%;
+
+            img {
+                width: 33rem;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .feature-3 {
+        margin-top: 4rem;
+        padding: 2rem;
+        flex-direction: column;
+        gap: 2rem;
+
+        &__text {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+            order: 2;
+
+            h3 {
+                font-size: 1.3rem;
+            }
+
+            p {
+                font-size: 1.1rem;
+            }
+
+            a {
+                width: 10rem;
+                font-size: 1rem;
+                padding: .6rem;
+            }
+        }
+
+        &__image {
+            width: 100%;
+            text-align: center;
+
+            img {
+                width: 26rem;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .feature-3 {
+        margin-top: 4rem;
+        padding: 1rem;
+        flex-direction: column;
+        gap: 2rem;
+
+        &__text {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+            order: 2;
+
+            h3 {
+                font-size: 1.2rem;
+            }
+
+            p {
+                font-size: 1rem;
+            }
+
+            a {
+                width: 9rem;
+                font-size: .8rem;
+                padding: .6rem;
+            }
+        }
+
+        &__image {
+            width: 100%;
+            text-align: center;
+
+            img {
+                width: 21rem;
+            }
+        }
+    }
+}

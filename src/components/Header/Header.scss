@@ -1,0 +1,197 @@
+.header {
+    background: #dededf;
+    width: 100%;
+    height: 95vh;
+    padding: 2rem 3rem;
+    display: grid;
+    place-items: center;
+    position: relative;
+
+    &__image {      
+        z-index: 99;
+
+        img {
+            height: 40rem;
+            display: block;
+        }
+
+        figcaption {
+            font-size: 2rem;
+            position: absolute;
+            top: 20%;
+            left: 65%;
+            transform: translate(-50%, -50%);
+            font-family: 'La Belle Aurore', cursive;
+        }
+    }
+
+    span {
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: flex;
+
+        .title-1 {
+            z-index: 999;
+            z-index: 1;
+            font-size: 15rem;
+            font-weight: bold;
+            color: #dededf;
+            text-shadow: 10px 10px 15px #585757;
+        }
+    
+        .title-2 {
+            font-size: 15rem;
+            font-weight: bold;
+            color: #dededf;
+            text-shadow: 10px 10px 15px #585757;
+            z-index: -1;
+        }
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .header {
+        padding: 1rem;
+
+        &__image {
+
+            img {
+                height: 45rem;
+                display: block;
+            }
+
+            figcaption {
+                font-size: 1.3rem;
+                position: absolute;
+                top: 28%;
+                left: 70%;
+                transform: translate(-50%, -50%);
+                font-family: 'La Belle Aurore', cursive;
+            }
+        }
+
+        span {
+            position: absolute;
+            top: 40%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            display: flex;
+
+            .title-1 {
+                z-index: 999;
+                z-index: 1;
+                font-size: 11rem;
+                font-weight: bold;
+                color: #dededf;
+                text-shadow: 10px 10px 15px #585757;
+            }
+
+            .title-2 {
+                font-size: 11rem;
+                font-weight: bold;
+                color: #dededf;
+                text-shadow: 10px 10px 15px #585757;
+                z-index: 999;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .header {
+        padding: 1rem;
+
+        &__image {
+
+            img {
+                height: 25rem;
+                display: block;
+            }
+
+            figcaption {
+                font-size: 1.3rem;
+                position: absolute;
+                top: 32%;
+                left: 76%;
+                transform: translate(-50%, -50%);
+                font-family: 'La Belle Aurore', cursive;
+            }
+        }
+
+        span {
+            position: absolute;
+            top: 40%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            display: flex;
+
+            .title-1 {
+                z-index: 999;
+                z-index: 1;
+                font-size: 6rem;
+                font-weight: bold;
+                color: #dededf;
+                text-shadow: 10px 10px 15px #585757;
+            }
+
+            .title-2 {
+                font-size: 6rem;
+                font-weight: bold;
+                color: #dededf;
+                text-shadow: 10px 10px 15px #585757;
+                z-index: 999;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .header {
+        padding: 1rem;
+
+        &__image {      
+            z-index: 99;
+
+            img {
+                height: 22rem;
+                display: block;
+            }
+
+            figcaption {
+                font-size: 1.2rem;
+                position: absolute;
+                top: 32%;
+                left: 76%;
+                transform: translate(-50%, -50%);
+                font-family: 'La Belle Aurore', cursive;
+            }
+        }
+
+        span {
+            position: absolute;
+            top: 40%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            display: flex;
+
+            .title-1 {
+                z-index: 999;
+                z-index: 1;
+                font-size: 5rem;
+                font-weight: bold;
+                color: #dededf;
+                text-shadow: 10px 10px 15px #585757;
+            }
+        
+            .title-2 {
+                font-size: 5rem;
+                font-weight: bold;
+                color: #dededf;
+                text-shadow: 10px 10px 15px #585757;
+                z-index: 999;
+            }
+        }
+    }
+}

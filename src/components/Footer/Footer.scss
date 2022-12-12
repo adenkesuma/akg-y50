@@ -1,0 +1,200 @@
+.footer {
+    background-color: #dededf;
+    width: 100%;
+
+    &__info {
+        padding: 2rem 5rem;
+        border-bottom: 1px solid #8d8d8d;
+        
+        &--text {
+            margin-bottom: 2rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 1rem;
+
+            h3 {
+                font-size: 1.2rem;
+            }
+
+            p {
+                font-size: .9rem;
+                color: #302d2d;
+            }
+        }
+
+        &--media {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 2rem;
+
+            li {
+                list-style: none;
+
+               a {
+                    text-decoration: none;
+
+                    .instagram,
+                    .linkedIn,
+                    .github,
+                    .youtube {
+                        font-size: 1.8rem;
+                        
+                    }
+                
+                    .instagram {
+                        color: #FF02C7;
+                    }
+                
+                    .linkedIn {
+                        color: #0085FF;
+                    }
+                
+                    .github {
+                        color: #000;
+                    }
+                
+                    .youtube {
+                        color: #FD0808;
+                    }
+               }
+            }
+        }
+    }
+
+    &__copyright {
+        font-size: .9rem;
+        padding: 2rem;
+        text-align: center;
+        color: #302d2d;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .footer {
+
+        &__info {
+            padding: 2rem 5rem;
+            border-bottom: 1px solid #8d8d8d;
+
+            &--text {
+                margin-bottom: 1.5rem;
+
+                h3 {
+                    font-size: 1.2rem;
+                }
+
+                p {
+                    text-align: center;
+                }
+            }
+
+            &--media {
+
+                li {
+
+                    a {
+
+                        .instagram,
+                        .linkedIn,
+                        .github,
+                        .youtube {
+                            font-size: 1.5rem;
+                        }
+                    }
+                }
+            }
+        }
+
+        &__copyright {
+            padding: 2rem;
+            font-size: 1rem;
+        }
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .footer {
+
+        &__info {
+            padding: 2rem;
+            border-bottom: 1px solid #8d8d8d;
+
+            &--text {
+                margin-bottom: 1.5rem;
+
+                h3 {
+                    font-size: 1.2rem;
+                }
+
+                p {
+                    text-align: center;
+                }
+            }
+
+            &--media {
+
+                li {
+
+                    a {
+
+                        .instagram,
+                        .linkedIn,
+                        .github,
+                        .youtube {
+                            font-size: 1.5rem;
+                        }
+                    }
+                }
+            }
+        }
+
+        &__copyright {
+            padding: 2rem;
+            font-size: 1rem;
+        }
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .footer {
+
+        &__info {
+            padding: 2rem 1rem;
+            border-bottom: 1px solid #8d8d8d;
+            
+            &--text {
+                margin-bottom: 1.5rem;
+
+                h3 {
+                    font-size: 1.2rem;
+                }
+
+                p {
+                    text-align: center;
+                }
+            }
+
+            &--media {
+
+                li {
+
+                    a {
+                        .instagram,
+                        .linkedIn,
+                        .github,
+                        .youtube {
+                            font-size: 1.3rem;
+                        }
+                    }
+                }
+            }
+        }
+
+        &__copyright {
+            padding: 2rem 1rem;
+            font-size: .8rem;
+        }
+    }
+}
