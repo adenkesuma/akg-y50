@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/akg-y50/static/css/main.582b8ca6.css",
-    "main.js": "/akg-y50/static/js/main.7f80abdc.js",
+    "main.css": "/akg-y50/static/css/main.f6cff204.css",
+    "main.js": "/akg-y50/static/js/main.6f81ade1.js",
     "static/media/headphoneHeader.png": "/akg-y50/static/media/headphoneHeader.37c1b81b8544f99ecd5a.png",
     "static/media/headphoneFeature.png": "/akg-y50/static/media/headphoneFeature.5cd173ffea200c3674a5.png",
     "static/media/headphoneFeature3.png": "/akg-y50/static/media/headphoneFeature3.7d577d6d0f27b9f5cd06.png",
     "static/media/headphoneAbout.png": "/akg-y50/static/media/headphoneAbout.3c1097dff170b6e10c13.png",
     "static/media/poster.jpg": "/akg-y50/static/media/poster.bceaf39af37dd387d31d.jpg",
     "index.html": "/akg-y50/index.html",
-    "main.582b8ca6.css.map": "/akg-y50/static/css/main.582b8ca6.css.map",
-    "main.7f80abdc.js.map": "/akg-y50/static/js/main.7f80abdc.js.map"
+    "main.f6cff204.css.map": "/akg-y50/static/css/main.f6cff204.css.map",
+    "main.6f81ade1.js.map": "/akg-y50/static/js/main.6f81ade1.js.map"
   },
   "entrypoints": [
-    "static/css/main.582b8ca6.css",
-    "static/js/main.7f80abdc.js"
+    "static/css/main.f6cff204.css",
+    "static/js/main.6f81ade1.js"
   ]
 }
