@@ -13,7 +13,7 @@ const Feature3 = () => {
             <p>
                 The music never stops. The Y50BT works with a by-pass cable that allows you to enjoy your favorite jams even if you run out of battery.
             </p>
-            <a  href="/">Explore More
+            <a href="https://www.akg.com/Headphones/Over-ear%20%26%20On-ear/AKG+Y500+Wireless.html">Explore More
                 <FontAwesomeIcon style={{marginLeft: '.5rem'}} icon={faArrowRight}/>
             </a>
         </div>

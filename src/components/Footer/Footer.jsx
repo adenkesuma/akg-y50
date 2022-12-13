@@ -17,22 +17,22 @@ const Footer = () => {
             </div>
             <ul className='footer__info--media'>
                 <li>
-                    <a href="/">
+                    <a href="https://www.instagram.com/aden_kesuma/">
                         <FontAwesomeIcon className='instagram' icon={faInstagram}/>
                     </a>
                 </li>
                 <li>
-                    <a href="/">
+                    <a href="https://www.linkedin.com/in/aden-kesuma-51549724b/">
                         <FontAwesomeIcon className='linkedIn' icon={faLinkedin}/> 
                     </a>                   
                 </li>
                 <li>
-                    <a href="/">
+                    <a href="https://github.com/adenkesuma">
                         <FontAwesomeIcon className='github' icon={faGithub}/>
                     </a>
                 </li>
                 <li>
-                    <a href="/">
+                    <a href="https://youtu.be/tkbqnsiwrkk">
                         <FontAwesomeIcon className='youtube' icon={faYoutube}/>
                     </a>
                 </li>

@@ -15,7 +15,7 @@ const Feature1 = () => {
                 <p>
                     Pursue your passions wirelessly and easily, with ear-cup mounted controls.
                 </p>
-                <a  href="/">Explore More
+                <a href="https://www.akg.com/Headphones/Over-ear%20%26%20On-ear/AKG+Y500+Wireless.html">Explore More
                     <FontAwesomeIcon style={{marginLeft: '.5rem'}} icon={faArrowRight}/>
                 </a>
             </div>

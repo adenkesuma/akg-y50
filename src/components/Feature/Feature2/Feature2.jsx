@@ -17,7 +17,7 @@ const Feature2 = () => {
                 <p>
                     A clear, word-class and award winning acoustic signature that will take your musical enjoyment and appreciation to new levels.
                 </p>
-                <a  href="/">Explore More
+                <a href="https://www.akg.com/Headphones/Over-ear%20%26%20On-ear/AKG+Y500+Wireless.html">Explore More
                     <FontAwesomeIcon style={{marginLeft: '.5rem'}} icon={faArrowRight}/>
                 </a>
             </div>
