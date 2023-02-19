@@ -1,3 +1,21 @@
+
+Just so you know, I made this website for the reason that I like the AKG brand and I decided to try to make a landing page website about the AKG 45 headphones, while also honing my skills in making websites.
+
+below is the display design when on the desktop...  ↓↓↓
+
+![Cuplikan_layar_2023-02-19_220122-removebg-preview](https://user-images.githubusercontent.com/101191379/219956381-059118bb-05fd-4134-bff1-61260ab38bee.png)
+![Cuplikan_layar_2023-02-19_215444-removebg-preview](https://user-images.githubusercontent.com/101191379/219956383-e93ed271-18a4-49fa-a476-6501636a2fff.png)
+
+and below is the display design when on the mobile app ... ↓↓↓
+
+![Cuplikan_layar_2023-02-19_215401-removebg-preview](https://user-images.githubusercontent.com/101191379/219956417-134870a9-193c-4d1b-bfeb-3a655edfbeba.png)
+![Cuplikan_layar_2023-02-19_215303-removebg-preview](https://user-images.githubusercontent.com/101191379/219956420-792c736e-0949-4059-a93f-d364703011e7.png)
+![Cuplikan_layar_2023-02-19_215234-removebg-preview](https://user-images.githubusercontent.com/101191379/219956422-4a8c8d45-8df8-4926-9229-9b5f7e7c7d8a.png)
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
